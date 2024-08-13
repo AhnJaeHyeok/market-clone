@@ -1,4 +1,5 @@
-const form = document.querySelector("#singup-form");
+const form = document.querySelector("#signup-form");
+console.log(form);
 
 const checkPassword = () => {
   const formData = new FormData(form);
