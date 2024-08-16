@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import Footer from "../components/Footer.svelte";
+  import Nav from "../components/Nav.svelte";
   import { getDatabase, ref, onValue } from "firebase/database";
 
   //여기 위에 있는 자바스크립트 파일은
@@ -83,6 +83,6 @@
   <a class="write-btn" href="#/write">+ 글쓰기</a>
 </main>
 
-<Footer location="home" />
+<Nav location="home" />
 
 <div class="media-info-msg">화면 사이즈를 줄여주세요.</div>
